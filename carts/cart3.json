@@ -1,0 +1,12 @@
+{
+    "items": [
+        { "name": "T-Shirt", "price": 350, "category": "Clothing" },
+        { "name": "Hoodie", "price": 700, "category": "Clothing" },
+        { "name": "Watch", "price": 850, "category": "Accessories" },
+        { "name": "Bag", "price": 640, "category": "Accessories" }
+    ],
+    "discount": true,
+    "discountCampaigns": [
+        { "campaign": "Percentage Discount By Item Category", "type": "On Top", "percentage": 15, "category": "Clothing" }
+    ]
+}

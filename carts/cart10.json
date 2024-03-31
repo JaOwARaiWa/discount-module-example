@@ -1,0 +1,12 @@
+{
+    "items": [
+        { "name": "T-Shirt", "price": 350, "category": "Clothing" },
+        { "name": "Hat", "price": 250, "category": "Accessories" }
+    ],
+    "discount": true,
+    "discountCampaigns": [
+        { "campaign": "Special Campaign", "type": "Seasonal", "threshold": 300, "discount": 40 },
+        { "campaign": "Percentage Discount By Item Category", "type": "On Top", "percentage": 15, "category": "Clothing" },
+        { "campaign": "Fixed Amount", "type": "Coupon", "amount": 50 }
+    ]
+}

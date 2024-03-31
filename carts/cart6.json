@@ -1,0 +1,19 @@
+{
+    "items": [
+        { "name": "T-Shirt", "price": 350, "category": "Clothing" },
+        { "name": "Hat", "price": 250, "category": "Accessories" },
+        { "name": "Hoodie", "price": 700, "category": "Clothing" },
+        { "name": "Watch", "price": 850, "category": "Accessories" },
+        { "name": "Bag", "price": 640, "category": "Accessories" },
+        { "name": "Belt", "price": 230, "category": "Accessories" },
+        { "name": "Phone", "price": 20000, "category": "Electronics" }
+    ],
+    "discount": true,
+    "discountCampaigns": [
+        { "campaign": "Fixed Amount", "type": "Coupon", "amount": 50 },
+        { "campaign": "Percentage Discount", "type": "Coupon", "percentage": 15 },
+        { "campaign": "Percentage Discount By Item Category", "type": "On Top", "percentage": 20, "category": "Clothing" },
+        { "campaign": "Discount By Points", "type": "On Top", "max": false, "points": 50 },
+        { "campaign": "Special Campaign", "type": "Seasonal", "amount": 300, "discount": 40 }
+    ]
+}

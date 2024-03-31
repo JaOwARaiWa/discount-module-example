@@ -1,0 +1,11 @@
+{
+    "items": [
+        { "name": "T-Shirt", "price": 350, "category": "Clothing" },
+        { "name": "Hat", "price": 250, "category": "Accessories" },
+        { "name": "Belt", "price": 230, "category": "Accessories" }
+    ],
+    "discount": true,
+    "discountCampaigns": [
+        { "campaign": "Discount By Points", "type": "On Top", "max": true}
+    ]
+}

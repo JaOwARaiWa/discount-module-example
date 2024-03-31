@@ -1,0 +1,26 @@
+{
+	"name": "test_coupon_project",
+	"version": "1.0.0",
+	"description": "For testing",
+	"main": "index.js",
+	"directories": {
+		"test": "test"
+	},
+	"scripts": {
+		"build": "tsc",
+		"serve": "ts-node src/index.ts",
+		"test": "mocha"
+	},
+	"author": "Kiattikun Thoungudom",
+	"license": "ISC",
+	"devDependencies": {
+		"@types/chai": "^4.3.14",
+		"@types/mocha": "^10.0.6",
+		"@types/node": "^20.12.2",
+		"chai": "^4.4.1",
+		"cross-env": "^7.0.3",
+		"mocha": "^10.4.0",
+		"ts-node": "^10.9.2",
+		"typescript": "^5.4.3"
+	}
+}
